@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         activity = MainActivity.this;
 
 
-        getSupportActionBar().setTitle(getResources().getString(R.string.app_name));
+        getSupportActionBar().setTitle(getResources().getString(R.string.loading));
         //display back icon
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
     public void hideErrorUI() {
         listView.setVisibility(View.VISIBLE);
         //error UI
-        getSupportActionBar().setTitle(getResources().getString(R.string.app_name));
+        getSupportActionBar().setTitle(getResources().getString(R.string.loading));
         txtErr.setVisibility(View.GONE);
     }
 
