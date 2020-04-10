@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">proof of concept</string>
+    <string name="internet_err">No internet connection</string>
+    <string name="api_err">Opps!! Seems like something went wrong.</string>
+</resources>
